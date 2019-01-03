@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+    background: white;
+    max-width:960px;
+    box-shadow: 0 2px 4px rgb(0,0,0.1);
+    padding: 30px;
+}
+.left{
+    flex:1;
+    background: rgb(38, 38,38);
+    color:rgb(244,255,253);
+    padding:5px;
+}
+.right{
+    flex:3;
+    color: rgb(38, 38,38);
+    background:rgb(242,242,242);
+    padding:5px;
+}
